@@ -52,12 +52,16 @@ function App() {
 
 
         {productos.map(producto =>(
-          <Producto>
-                  key ={producto.sku}
+          <Producto
+     
+                   key ={producto.sku}
                   producto ={producto}
                   productos ={productos}
                   carro = [carro]
                   agregarP = {agregarP}
+     
+     >
+                 
 
 
           </Producto>
